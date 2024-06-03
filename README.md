@@ -4,9 +4,11 @@
 
 ## Overview
 
-In modern society, where we spend 80-90% of our time indoors, HVAC (Heating, Ventilation, and Air Conditioning) systems play a crucial role in maintaining optimal environmental conditions in various indoor spaces, including residential buildings, commercial offices, educational institutions, hospitals, and industrial facilities. 
+In modern society, where we spend 80-90% of our time indoors, HVAC (Heating, Ventilation, and Air Conditioning) systems play a crucial role in maintaining optimal environmental conditions in various indoor spaces, including residential buildings, commercial offices, educational institutions, hospitals, and industrial facilities.  While huge investements into the development of HVAC systems have made them great at regulating indoor conditions, they remain energy inefficient.
 
-Traditional systems often operate inefficiently, leading to unnecessary energy consumption and discomfort. For instance, when a thermostat is set to a specific temperature and the space is vacated, the system continues to run until the room reaches the set temperature, leading to unnecessary energy consumption. While motion sensors can help detect occupancy, they often fail to account for stationary occupants, resulting in discomforting scenarios where lights and systems turn off unexpectedly—a common frustration in student accommodations.
+Consider a scenario where a thermostat is set to a specific temperature and the space is vacated. The system continues to run until the room reaches the set temperature, leading to unnecessary energy consumption. 
+
+While motion sensors can help detect occupancy, they often fail to account for stationary occupants, resulting in discomforting scenarios where lights and systems turn off unexpectedly—a common frustration in student accommodations.
 
 ## Project Objective
 
@@ -26,16 +28,12 @@ This project aims to develop an advanced HVAC management system that intelligent
 ## Opening the Notebook in Binder
 
 To open and interact with the Jupyter Notebook in Binder, simply click on the "Launch Binder" button below:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZahinMai/HVAC-Occupancy-Detection/occupancy-prediction.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZahinMai/HVAC-Occupancy-Detection/HEAD)
 
 ## Contribution
 
-We welcome contributions to improve the system. Please fork the repository and submit pull requests with detailed descriptions of your changes.
+Please fork the repository and submit pull requests with detailed descriptions of your changes.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
