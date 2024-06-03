@@ -14,10 +14,9 @@ While motion sensors can help detect occupancy, they often fail to account for s
 
 This project aims to develop an advanced HVAC management system that intelligently considers multiple factors to accurately determine room occupancy. By leveraging this information, the system seeks to enhance energy efficiency and occupant comfort simultaneously.
 
-## Key Features
-
-- **Data Collection Using Arduino Uno**: Utilising a combination of sensors to collect data on temperature, humidity, gas levels and light intensity.
-- **Machine Learning Integration**: Traininig a machine learning algorithm to predict occupancy using provided datasets containing similar data to that collected.
+## Two Parts to this Project
+- PART 1: Using an Arduino and sensors, gather real time data on air quality factors (temperature, humidity, and CO2), and how they vary with the number of occupants in a room.
+- PART 2: Using provided datasets, train and test a machine learning classification model to predict the occupancy of a room based on environmental conditions.
 
 ## Project Structure
 
