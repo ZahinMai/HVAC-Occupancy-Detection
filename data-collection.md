@@ -1,5 +1,5 @@
 # **PART 1**
-**Objective: Using an Arduino and sensors, gather real time data on air quality factors (temperature, humidity, and CO2) in this room, and how they vary with the number of occupants in a room.
+**Objective: Using an Arduino and sensors, gather real time data on air quality factors (temperature, humidity, and CO2) in this room, and how they vary with the number of occupants in a room.**
 
 An Arduino is a small computer that you can easily program to control electronic devices like lights, motors, and sensors.
 It's commonly used for hobby projects and prototyping because it's affordable and user-friendly.
