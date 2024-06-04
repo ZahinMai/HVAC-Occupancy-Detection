@@ -10,15 +10,15 @@ Consider a scenario where a thermostat is set to a specific temperature and the 
 
 While motion sensors can help detect occupancy, they often fail to account for stationary occupants. This results in discomforting situations like lights and heating switching off unexpectedly in an occupied room — a common frustration in student accommodations.
 
-## Project Objective
+## Project objective
 
 This project aims to develop an advanced HVAC management system that intelligently considers multiple factors to accurately determine room occupancy. By leveraging this information, the system seeks to enhance energy efficiency and occupant comfort simultaneously.
 
-## Two Parts to this Project
-- PART 1: Using an Arduino and sensors, gather real time data on air quality factors (temperature, humidity, and CO2), and how they vary with the number of occupants in a room.
-- PART 2: Using provided datasets, train and test a machine learning classification model to predict the occupancy of a room based on environmental conditions.
+## Overview of this project
+- **Part 1**: Using an Arduino and sensors, gather real time data on air quality factors (temperature, humidity, and CO<sub>2</sub>), and how they vary with the number of occupants in a room.
+- **Part 2**: Using provided datasets, train and test a machine learning classification model to predict the occupancy of a room based on environmental conditions.
 
-## Project Structure
+## Project structure
 
 - **data-collection.ino**: Code for collecting data using various sensors for occupancy detection.
 - **occupancy-prediction.ipynb**: Jupyter Notebook containing the data analysis and machine learning part of the project.
