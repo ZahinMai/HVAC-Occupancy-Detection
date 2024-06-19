@@ -1,8 +1,11 @@
 # Section 1 - Data collection
+
+---
+
 **Objective: Using an Arduino and UNO sensors, gather real time data on air quality factors (temperature, humidity, and CO<sub>2</sub>) in this room, and how they vary with the number of occupants in a room.**
 
-An Arduino is a small microcontroller board that you can easily program to control electronic devices like lights, motors, and sensors.
-It's commonly used for hobby projects and prototyping because it's affordable and user-friendly.
+An Arduino is a small microcontroller board that you can program to control electronic devices like lights, motors, and sensors.
+It is commonly used for hobby projects and prototyping because it is affordable and user-friendly.
 
 ## 1. Setting up the hardware
 
@@ -10,7 +13,7 @@ It's commonly used for hobby projects and prototyping because it's affordable an
 - Arduino UNO
 - Breadboard
 - Jumper Wires
-- DHT11 - This sensor is used to measure temperature and humidity
+- DHT11 - this sensor is used to measure temperature and humidity
 - Gas sensor
 - Light sensor
 
