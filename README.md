@@ -1,7 +1,5 @@
 # Intelligent HVAC System for Energy Efficiency and Occupant Comfort
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZahinMai/HVAC-Occupancy-Detection/HEAD)
-
 ## Overview
 
 In modern society, where we spend 80-90% of our time indoors, HVAC (Heating, Ventilation, and Air Conditioning) systems play a crucial role in maintaining optimal environmental conditions in various indoor spaces, including residential buildings, commercial offices, educational institutions, hospitals, and industrial facilities. Despite significant investments in the development of HVAC systems, they still suffer from energy inefficiency.
