@@ -25,7 +25,7 @@ This project aims to develop an advanced HVAC management system that intelligent
 ## Opening the Notebook in Binder
 
 To open and interact with the Jupyter Notebook in Binder, simply click on the "Launch Binder" button below:
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZahinMai/HVAC-Occupancy-Detection/24e011426a0db1759d9913ed93d94f7eca4a7b78?urlpath=lab%2Ftree%2Foccupancy-prediction.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ZahinMai/HVAC-Occupancy-Detection.git/HEAD?labpath=section-2-occupancy-prediction.ipynb)
 
 
 ## Contribution
