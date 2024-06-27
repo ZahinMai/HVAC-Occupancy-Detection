@@ -27,25 +27,22 @@ An Arduino is a tiny computer that can connect to electrical circuits. Here is a
 ### Step-by-Step Wiring Guide
 
 #### 1. Connect Arduino to Breadboard:
-   - Connect the 5V pin on the Arduino to the positive power rail on the breadboard.
-   - Connect the GND pin on the Arduino to the negative power rail on the breadboard.
+   - 5V pin on the Arduino to the positive power rail on the breadboard.
+   - GND pin to the negative power rail.
 
 #### 2. Connecting the DHT11 Sensor
-   - VCC to the 5V power rail on the breadboard.
-   - GND to the GND rail on the breadboard.
+   - VCC to 5V power rail on the breadboard, GND to GND rail.
    - Data pin to any free digital pin on the Arduino
 
 #### 3. Connecting the MQ-2 Gas Sensor
-   - VCC to the 5V power rail on the breadboard.
-   - GND to the GND rail on the breadboard.
+   - VCC to 5V power rail on the breadboard, GND to GND rail.
    - A0 pin to the A0 analog input on the Arduino.
 
 #### 4. Connecting the LCD Display
-   - VCC to the 5V power rail on the breadboard.
-   - GND to the GND rail on the breadboard.
-   - SDA and SCL to A4 and A5 on the Arduino (respectively)
+   - VCC to 5V power rail on the breadboard, GND to GND rail.
+   - SDA to A4 and SCL to A5 on the Arduino.
 
-### Alternatively, you can can your components as shown in the diagram below:
+### Here is an illustration of this setup:
 ![Circuit diagram](https://github.com/ZahinMai/HVAC-Occupancy-Detection/assets/87860518/2b128c4a-ce30-45fe-bb4e-883db9948f05)
 
 ## Programming the components
