@@ -7,20 +7,44 @@
 An Arduino is a small microcontroller board that you can program to control electronic devices like lights, motors, and sensors.
 It is commonly used for hobby projects and prototyping because it is affordable and user-friendly.
 
-## 1. Setting up the hardware
+## How to use an Arduino
+![alt text](image.png)
+An Arduino is a tiny computer that can connect to electrical circuits. Here is a breakdown of the components of an Arduiono Uno R3:
+- **Atmega 328P chip** (biggest chip on the board) - executes programs stored in its (very limited) memory.
+- USB port - for loading programs onto the chip via the Arduino IDE. Also provides power to the Arduino. 
+- Power jack - alternative way to power a **programmed** board (in that case we do not need a USB connection)
 
-**You should the following materials:**
-- Arduino UNO
-- Breadboard
-- Jumper Wires
-- DHT11 - this sensor is used to measure temperature and humidity
-- Gas sensor
-- Light sensor
+## Setting up the hardware
 
-**Connect your components as shown in the diagram below:**
+### Step-by-Step Wiring Guide
+
+#### 1. Breadboard Basics
+- **Power Rails:** The two long rows on each side of the board (marked with red and blue lines) are the power rails, where you connect the 5V and GND from the Arduino.
+- **Terminal Strips:** The middle area where you plug in components and wires. Each row of five holes is connected electrically.
+
+#### 2. Connect Arduino to Breadboard:
+   - Connect the 5V pin on the Arduino to the positive power rail on the breadboard.
+   - Connect the GND pin on the Arduino to the negative power rail on the breadboard.
+
+#### 3. Connecting the DHT11 Sensor
+   - VCC to the 5V power rail on the breadboard.
+   - GND to the GND rail on the breadboard.
+   - Data pin to any free digital pin on the Arduino
+
+#### 4. Connecting the MQ-2 Gas Sensor
+   - VCC to the 5V power rail on the breadboard.
+   - GND to the GND rail on the breadboard.
+   - A0 pin to the A0 analog input on the Arduino.
+
+#### 5. Connecting the LCD Display
+   - VCC to the 5V power rail on the breadboard.
+   - GND to the GND rail on the breadboard.
+   - SDA and SCL to A4 and A5 on the Arduino (respectively)
+
+### Alternatively, you can can your components as shown in the diagram below:
 ![Circuit diagram](https://github.com/ZahinMai/HVAC-Occupancy-Detection/assets/87860518/2b128c4a-ce30-45fe-bb4e-883db9948f05)
 
-## 2. Programming the components
+## Programming the components
 
 **Example of the Arduino programming language**
 ``` C++
